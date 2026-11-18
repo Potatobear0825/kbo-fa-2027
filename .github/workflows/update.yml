@@ -42,9 +42,10 @@ jobs:
         run: python notify.py
       - name: Save dashboard and alert state
         run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data.json review.json alert_state.json community.json
           if ! git diff --cached --quiet; then
-            git commit -m 'Update FA contract check'
+            git commit -m "Update KBO FA dashboard"
             git push
+          fi
