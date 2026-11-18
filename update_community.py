@@ -43,6 +43,10 @@ def get(url):
 
 def main():
  old=json.loads(DATA.read_text(encoding='utf-8'))
+ now=datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=9))).isoformat(timespec='seconds')
+ old['last_attempt_at']=now
+ old['status']='not_checked'
+ old['message']=''
  try:
   html=get(LIST);p=Links();p.feed(html)
   links=[]
@@ -54,6 +58,7 @@ def main():
    if url not in [u for u,t in links]:links.append((url,title))
   records={p['url']:p for p in old.get('posts',[]) if p.get('site')!='MLBPark'}
   # Cap detail requests and keep only verified numeric recommendations.
+  detail_failures=0
   for url,title in links[:12]:
    time.sleep(2)
    try:
@@ -66,7 +71,9 @@ def main():
     if likes<MIN_LIKES:continue
     date=re.search(r'글번호\s*\d+\s*\|\s*(20\d\d-\d\d-\d\d\s+\d\d:\d\d)',plain)
     records[url]={'site':'MLBPark','title':title,'url':url,'likes':likes,'posted_at':date.group(1) if date else None}
-   except Exception as exc:print('article skipped',url,str(exc)[:100])
+   except Exception as exc:
+    detail_failures+=1
+    print('article skipped',url,str(exc)[:100])
   # Keep 14 day window only when timestamp exists, do not show stale undated posts.
   cutoff=(datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=9)))-datetime.timedelta(days=WINDOW_DAYS)).replace(tzinfo=None)
   def recent(p):
@@ -74,9 +81,18 @@ def main():
    except ValueError:return False
   kept=[p for p in records.values() if recent(p) and isinstance(p.get('likes'),int) and p['likes']>=MIN_LIKES]
   old['posts']=sorted(kept,key=lambda p:(-p['likes'],p['posted_at']))[:60]
-  old['checked_at']=datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=9))).isoformat(timespec='seconds')
-  DATA.write_text(json.dumps(old,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+  old['checked_at']=now
+  old['status']='ok' if old['posts'] else ('error' if detail_failures else 'empty')
+  old['message']=('FA 관련 후보 '+str(len(links))+'건 확인 · 상세 조회 오류 '+str(detail_failures)+'건 · 조건 충족 '+str(len(old['posts']))+'건')
   print('Community scan: valid posts',len(old['posts']))
- except Exception as exc:print('Community scan unavailable, keeping previous records:',str(exc)[:300])
+ except Exception as exc:
+  reason=str(exc)[:220]
+  old['status']='blocked' if ('robots' in reason.lower() or '403' in reason or '429' in reason) else 'error'
+  old['message']=reason
+  print('Community scan unavailable; state saved:',reason)
+ finally:
+  # Persist diagnostics even when sources cannot be accessed. Never fabricate posts.
+  DATA.write_text(json.dumps(old,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 
 if __name__=='__main__':main()
+
