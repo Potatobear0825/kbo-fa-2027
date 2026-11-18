@@ -10,11 +10,13 @@ ROOT=Path(__file__).resolve().parent
 DATA=ROOT/'community.json'
 USER_AGENT='KBOFATrackerCommunity/1.0 (+personal noncommercial digest)'
 BASE='https://mlbpark.donga.com'
-LIST=BASE+'/mp/best.php?b=kbotown&m=view'
+LIST=BASE+'/mp/best.php?b=kbotown&m=like'
 HEADERS={'User-Agent':USER_AGENT}
 PLAYERS=json.loads((ROOT/'data.json').read_text(encoding='utf-8'))['players']
 NAMES=[x['name'] for x in PLAYERS]
 SIGNAL=re.compile(r'FA|에프에이|계약|잔류|이적|썰|오퍼|영입|협상|행선지',re.I)
+MIN_LIKES=30
+WINDOW_DAYS=7
 
 class Links(HTMLParser):
  def __init__(self):super().__init__();self.found=[];self.a=None
@@ -52,7 +54,7 @@ def main():
    if url not in [u for u,t in links]:links.append((url,title))
   records={p['url']:p for p in old.get('posts',[]) if p.get('site')!='MLBPark'}
   # Cap detail requests and keep only verified numeric recommendations.
-  for url,title in links[:10]:
+  for url,title in links[:12]:
    time.sleep(2)
    try:
     page=get(url)
@@ -61,12 +63,16 @@ def main():
     m=re.search(r'추천\s*([0-9,]+)\s*조회',plain)
     if not m:continue
     likes=int(m.group(1).replace(',',''))
+    if likes<MIN_LIKES:continue
     date=re.search(r'글번호\s*\d+\s*\|\s*(20\d\d-\d\d-\d\d\s+\d\d:\d\d)',plain)
     records[url]={'site':'MLBPark','title':title,'url':url,'likes':likes,'posted_at':date.group(1) if date else None}
    except Exception as exc:print('article skipped',url,str(exc)[:100])
   # Keep 14 day window only when timestamp exists, do not show stale undated posts.
-  cutoff=(datetime.datetime.now()-datetime.timedelta(days=14)).strftime('%Y-%m-%d')
-  kept=[p for p in records.values() if p.get('posted_at') and p['posted_at'][:10]>=cutoff]
+  cutoff=(datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=9)))-datetime.timedelta(days=WINDOW_DAYS)).replace(tzinfo=None)
+  def recent(p):
+   try: return datetime.datetime.fromisoformat(str(p.get('posted_at','')).replace(' ','T'))>=cutoff
+   except ValueError:return False
+  kept=[p for p in records.values() if recent(p) and isinstance(p.get('likes'),int) and p['likes']>=MIN_LIKES]
   old['posts']=sorted(kept,key=lambda p:(-p['likes'],p['posted_at']))[:60]
   old['checked_at']=datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=9))).isoformat(timespec='seconds')
   DATA.write_text(json.dumps(old,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
