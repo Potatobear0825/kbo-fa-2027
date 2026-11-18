@@ -27,8 +27,6 @@ jobs:
           python-version: '3.12'
       - name: Search new contracts (renewals and transfers)
         run: python update_fa.py
-      - name: Update community rumors
-        run: python update_community.py
       - name: Test Telegram connection (only if requested)
         if: ${{ inputs.telegram_test == true }}
         env:
