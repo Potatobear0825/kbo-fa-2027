@@ -1,0 +1,157 @@
+{
+  "updated_at": "2026-11-18T20:45:00+09:00",
+  "checked_at": "2026-11-18T20:45:00+09:00",
+  "players": [
+    {
+      "name": "원태인",
+      "team": "삼성",
+      "grade": "A"
+    },
+    {
+      "name": "전병우",
+      "team": "삼성",
+      "grade": "C"
+    },
+    {
+      "name": "구자욱",
+      "team": "삼성",
+      "grade": "A"
+    },
+    {
+      "name": "김민수",
+      "team": "KT",
+      "grade": "B"
+    },
+    {
+      "name": "한승혁",
+      "team": "KT",
+      "grade": "B"
+    },
+    {
+      "name": "김상수",
+      "team": "KT",
+      "grade": "C"
+    },
+    {
+      "name": "오윤석",
+      "team": "KT",
+      "grade": "B"
+    },
+    {
+      "name": "김민혁",
+      "team": "KT",
+      "grade": "A"
+    },
+    {
+      "name": "배정대",
+      "team": "KT",
+      "grade": "A"
+    },
+    {
+      "name": "김태군",
+      "team": "KIA",
+      "grade": "B"
+    },
+    {
+      "name": "김호령",
+      "team": "KIA",
+      "grade": "C"
+    },
+    {
+      "name": "박동원",
+      "team": "LG",
+      "grade": "B"
+    },
+    {
+      "name": "홍창기",
+      "team": "LG",
+      "grade": "A"
+    },
+    {
+      "name": "박치국",
+      "team": "두산",
+      "grade": "B"
+    },
+    {
+      "name": "양의지",
+      "team": "두산",
+      "grade": "C",
+      "contract": {
+        "team": "두산",
+        "years": 2,
+        "total": 55,
+        "guarantee": 50,
+        "bonus": 40,
+        "salary": 10,
+        "options": 5,
+        "date": "2026-11-17",
+        "sources": [
+          "https://www.yna.co.kr/view/AKR20261117055251007",
+          "https://imnews.imbc.com/news/2026/sports/article/6866221_36947.html"
+        ],
+        "verification": "공식 발표 보도"
+      }
+    },
+    {
+      "name": "정수빈",
+      "team": "두산",
+      "grade": "B"
+    },
+    {
+      "name": "문승원",
+      "team": "SSG",
+      "grade": "C"
+    },
+    {
+      "name": "오태곤",
+      "team": "SSG",
+      "grade": "C",
+      "contract": {
+        "team": "SSG",
+        "years": 3,
+        "total": 11,
+        "bonus": 2,
+        "salary": 7.4,
+        "options": 1.6,
+        "date": "2026-11-17",
+        "sources": [
+          "https://www.yna.co.kr/view/AKR20261117055600007"
+        ],
+        "verification": "공식 발표 보도"
+      }
+    },
+    {
+      "name": "최지훈",
+      "team": "SSG",
+      "grade": "B",
+      "contract": {
+        "team": "SSG",
+        "years": 4,
+        "total": 67,
+        "bonus": 38,
+        "salary": 20,
+        "options": 9,
+        "date": "2026-11-18",
+        "sources": [
+          "https://www.yna.co.kr/view/AKR20261118080300007"
+        ],
+        "verification": "공식 발표 보도"
+      }
+    },
+    {
+      "name": "권희동",
+      "team": "NC",
+      "grade": "B"
+    },
+    {
+      "name": "박상원",
+      "team": "한화",
+      "grade": "A"
+    },
+    {
+      "name": "최재훈",
+      "team": "한화",
+      "grade": "B"
+    }
+  ]
+}
