@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-19T07:02:43+09:00",
+  "checked_at": "2026-11-19T08:01:43+09:00",
   "new_contracts": [],
   "candidates": [
     {
@@ -49,12 +49,6 @@
       "headline": "‘원태인 구자욱 홍창기 등 6명 A급’ 총 22명 FA 승인..17일부터 계약 교섭 - 뉴스엔",
       "publisher": "뉴스엔",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1PU2VaNFI1OVp3NFFHdEpqYWxyai1QbmUxYkRVOEQwY2oxSFgyZGl2VXlrQlZzWjNLS2xxcWlaRkJwYjZIRVA0dF9IMFBkUmIyUjVmMWZJZ2FOUFBXOElSUnBzZVVVZnl5?oc=5"
-    },
-    {
-      "player": "원태인",
-      "headline": "“이적시 비밀 사진 공개하겠다”…‘FA’ 구자욱·원태인에게 경고 날린 강민호 - 스포츠한국",
-      "publisher": "스포츠한국",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1nSFp4WV84VmJ0SWZXUWlQa3AtMGg2WWRJNjdiU21jZ1ROQTZtZHo0Q3A3UHFEUmJYeHpQNVlrZnBOMW50aGRMb2dCanJTZ1dEcTJZUGdZMzRGYXhHYmkwSnlYajBaWVo3RjNqOHhBMETSAXRBVV95cUxOdE5MaTdlSVBIV3VlUm56MHRTNktXUFFlM0tHQUJLYnRvQmJMdXNNRVJULVNEZVFEYjQ1SjRNdUNhb0xkeXkzMU9IcFlvWFlkU1VKc1FVMlE1RTdBOEJUdFktVVNaeHVqb3pscWtJZnYxM0pNWg?oc=5"
     },
     {
       "player": "구자욱",
@@ -154,15 +148,15 @@
     },
     {
       "player": "홍창기",
-      "headline": "다년 계약 거절한 홍창기…FA 취득 앞두고 성적 부진 : 스포츠 - 재경일보",
-      "publisher": "재경일보",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5RX1NhY2ZQM3VUV1RRZmFVd3BrbGhaOW16SnNNbDNiMEJXTDVqNkhKY0lQbzgtNHdlbDFNbHViRGh5ZjZmbEw2NzBzNA?oc=5"
-    },
-    {
-      "player": "홍창기",
       "headline": "‘다년 계약 거절→최악 부진→FA 취득’ 홍창기·박동원, LG 분위기가 달라졌다…차명석 단장 “시장은 움직이니까” - 미주중앙일보",
       "publisher": "미주중앙일보",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBib2pRcUNwaUFvMzZpM2pYd29UNmlpVG82dnNvUmlDdnBma3V4amZtME1DNmNOT2NIQWR0SGZtM2RmZUR0WVFEMXh4RVcyZXlmWm9qMlM4VEF0MExjd0lPOXN3?oc=5"
+    },
+    {
+      "player": "홍창기",
+      "headline": "다년 계약 거절한 홍창기…FA 취득 앞두고 성적 부진 : 스포츠 - 재경일보",
+      "publisher": "재경일보",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5RX1NhY2ZQM3VUV1RRZmFVd3BrbGhaOW16SnNNbDNiMEJXTDVqNkhKY0lQbzgtNHdlbDFNbHViRGh5ZjZmbEw2NzBzNA?oc=5"
     },
     {
       "player": "홍창기",
@@ -183,5 +177,10 @@
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1GWFM4cFk4WlhqSU5rTGtvSXVHTThLbU5yUEdzaC10c1MtdlhyaFBXZUhXZlRCYWQzNjM4T0N0SWpNX1F0NHZ2ME1ONlhQUnVFMDgzU1o5dDgxOVhWM0dyMlczMWdrMHFfZWg1VmVxONIBb0FVX3lxTE1GWFM4cFk4WlhqSU5rTGtvSXVHTThLbU5yUEdzaC10c1MtdlhyaFBXZUhXZlRCYWQzNjM4T0N0SWpNX1F0NHZ2ME1ONlhQUnVFMDgzU1o5dDgxOVhWM0dyMlczMWdrMHFfZWg1VmVxOA?oc=5"
     }
   ],
-  "errors": []
+  "errors": [
+    {
+      "player": "김민수",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ]
 }
