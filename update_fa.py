@@ -68,23 +68,62 @@ def destination(title, original):
     return None
 
 
+
 def fetch_rss(player):
-    query=f'"{player}" (FA 계약 OR 이적 OR 잔류)'
-    url='https://news.google.com/rss/search?'+urllib.parse.urlencode({'q':query,'hl':'ko','gl':'KR','ceid':'KR:ko'})
-    req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0 (compatible; KBOFAWatcher/2.0)'})
-    with urllib.request.urlopen(req,timeout=18) as response:
-        root=ET.fromstring(response.read(1000000))
-    result=[]
+    query = f'"{player}" (FA 계약 OR 이적 OR 잔류)'
+    url = 'https://news.google.com/rss/search?' + urllib.parse.urlencode({
+        'q': query,
+        'hl': 'ko',
+        'gl': 'KR',
+        'ceid': 'KR:ko'
+    })
+
+    req = urllib.request.Request(
+        url,
+        headers={'User-Agent': 'Mozilla/5.0'}
+    )
+
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(req, timeout=18) as response:
+                root = ET.fromstring(response.read(1000000))
+            break
+        except Exception as exc:
+            if attempt == 2:
+                raise
+            print(f'{player}: 검색 실패, 재시도 {attempt+1}/2 - {exc}')
+            time.sleep(3 * (attempt + 1))
+
+    result = []
     for el in root.findall('./channel/item'):
-        title=(el.findtext('title') or '').strip()
-        source=el.find('source')
-        publisher=((source.text if source is not None else '') or '').strip()
-        link=(el.findtext('link') or '').strip()
-        try: published=email.utils.parsedate_to_datetime(el.findtext('pubDate') or '').astimezone(NOW.tzinfo)
-        except (ValueError,TypeError): continue
-        if not (NOW-dt.timedelta(days=21) <= published <= NOW+dt.timedelta(hours=2)): continue
-        result.append({'title':title,'publisher':publisher,'url':link,'published':published.isoformat()})
+        title = (el.findtext('title') or '').strip()
+        source = el.find('source')
+        publisher = ((source.text if source is not None else '') or '').strip()
+        link = (el.findtext('link') or '').strip()
+
+        try:
+            published = email.utils.parsedate_to_datetime(
+                el.findtext('pubDate') or ''
+            ).astimezone(NOW.tzinfo)
+        except (ValueError, TypeError):
+            continue
+
+        if not (
+            NOW - dt.timedelta(days=21)
+            <= published
+            <= NOW + dt.timedelta(hours=2)
+        ):
+            continue
+
+        result.append({
+            'title': title,
+            'publisher': publisher,
+            'url': link,
+            'published': published.isoformat()
+        })
+
     return result
+
 
 
 def candidate(item, player):
