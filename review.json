@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-19T00:38:11+09:00",
+  "checked_at": "2026-11-19T01:45:23+09:00",
   "new_contracts": [],
   "candidates": [
     {
@@ -10,15 +10,15 @@
     },
     {
       "player": "원태인",
-      "headline": "\"돈으로 밀리지 않는다\"는 삼성, 구자욱·원태인 계약에 구단·그룹 자존심 걸렸다 [IS 포커스] - 네이트",
-      "publisher": "네이트",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE10QnY0OTFfdTQxTWlLQTZZWnVFa0hKX1g4eXdYTXhkRWVBNHl5NXVuenlLeEpwU1I1UVFQNE51UTVxVHlWS3hzd3pxU2dlM21nWFd2NTBR?oc=5"
-    },
-    {
-      "player": "원태인",
       "headline": "2027 KBO FA 시장 개막…양의지·원태인·구자욱 등 22명 자유계약 승인 - TSN KOREA",
       "publisher": "TSN KOREA",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0yLVFsNTFmX1BVUk9wQ1FZNDd2eE5rTVIxbWpQYUZLaUs4RFFNNGZETnh2MU9Xb2pMU2RwbU5yS3hVdmVBUW1xWS12SEl4X3J6VEVOeThvbXhGc3N3OVVTQw?oc=5"
+    },
+    {
+      "player": "원태인",
+      "headline": "\"돈으로 밀리지 않는다\"는 삼성, 구자욱·원태인 계약에 구단·그룹 자존심 걸렸다 [IS 포커스] - 네이트",
+      "publisher": "네이트",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE10QnY0OTFfdTQxTWlLQTZZWnVFa0hKX1g4eXdYTXhkRWVBNHl5NXVuenlLeEpwU1I1UVFQNE51UTVxVHlWS3hzd3pxU2dlM21nWFd2NTBR?oc=5"
     },
     {
       "player": "원태인",
@@ -31,12 +31,6 @@
       "headline": "‘180억 악성 계약 끝났다’ SSG, FA 시장 뒤흔드는 큰 손 될까…구자욱·원태인 역대급 계약 기대된다 - 미주중앙일보",
       "publisher": "미주중앙일보",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB5N09sMTdnZDhTX05xRFhjeUZCSGt5ZDNla0lwS0FLaUVPS29obEZlZUhuZURTbDNhTTFiQVItQzVnX3FENTFrUGJXMVdPQnNkYmhOVVlYX01hY29ZdDk2Zzh3?oc=5"
-    },
-    {
-      "player": "원태인",
-      "headline": "‘180억 악성 계약 끝났다’ SSG, FA 시장 뒤흔드는 큰 손 될까…구자욱·원태인 역대급 계약 기대된다 - 머니투데이 - 머니투데이",
-      "publisher": "머니투데이",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1YRHRsWVNhdktIY291QU9sX2RkcnBER2ZFZHlHM0sxd19ycnF5U2F5VDU3a0pBOXJ1S1ZjdHRTd00wSjM4YVNOYmZJYlFSSTJmcXFNRzZGWmZkYkYxemFwZldCV2pEWDBkV0HSAW9BVV95cUxNVkJGblctOV90WEJfaVNPbHNUZlpSRlJwRzdGSDF2bV96UjEzSU1EU1J5Ynk4b0VFUFdWSXZVNThwQ0dVRERmLURib0hQSGNUQjJWbi1xNzNHTW56TmJjeE1LaHAzNXl1UVExOWozZzg?oc=5"
     },
     {
       "player": "원태인",
@@ -76,15 +70,15 @@
     },
     {
       "player": "구자욱",
-      "headline": "박승규도 원태인·구자욱 잔류 간절히 호소했다! \"왕조 다시 시작할 기회→계속 같이 뛰고 싶습니다\" [용인 현장] - 스타뉴스",
-      "publisher": "스타뉴스",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9VRzZTZVlyaUZwamhFTERhRmFyNlgxLXNRX3R5NHROS0QzQVpCeDU4dHJWMUl5R2tKQnhBOVowN2d6ZlBwdDNvVmgzNFRMZzAzWUFqYk1rWmFCOEZyQ3drbnA5bXhCcS02a0N1Y3RXZWM3YXM1TVE?oc=5"
-    },
-    {
-      "player": "구자욱",
       "headline": "2027 KBO FA 시장 개막…양의지·원태인·구자욱 등 22명 자유계약 승인 - TSN KOREA",
       "publisher": "TSN KOREA",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0yLVFsNTFmX1BVUk9wQ1FZNDd2eE5rTVIxbWpQYUZLaUs4RFFNNGZETnh2MU9Xb2pMU2RwbU5yS3hVdmVBUW1xWS12SEl4X3J6VEVOeThvbXhGc3N3OVVTQw?oc=5"
+    },
+    {
+      "player": "구자욱",
+      "headline": "박승규도 원태인·구자욱 잔류 간절히 호소했다! \"왕조 다시 시작할 기회→계속 같이 뛰고 싶습니다\" [용인 현장] - 스타뉴스",
+      "publisher": "스타뉴스",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9VRzZTZVlyaUZwamhFTERhRmFyNlgxLXNRX3R5NHROS0QzQVpCeDU4dHJWMUl5R2tKQnhBOVowN2d6ZlBwdDNvVmgzNFRMZzAzWUFqYk1rWmFCOEZyQ3drbnA5bXhCcS02a0N1Y3RXZWM3YXM1TVE?oc=5"
     },
     {
       "player": "구자욱",
@@ -114,7 +108,7 @@
       "player": "김호령",
       "headline": "‘최고의 알짜배기 영입 후보’ 김호령, FA B등급→C등급 나비효과…사실상 이적 확정인가 - 머니투데이 - 머니투데이",
       "publisher": "머니투데이",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBYcWZYUkpjckppaG5vZUxtWWZfR3RXWHN6T3NPc1h0dENicW1XdVlIZEN3RW1NTDBkQ1doRlpDaXhHLXNmSDV6czJqYmpDajNyal9KOWYwUzBZMHpKLTZqR2pJMng4YTQ4Z0ZKU3JfONIBb0FVX3lxTFBYcWZYUkpjckppaG5vZUxtWWZfR3RXWHN6T3NPc1h0dENicW1XdVlIZEN3RW1NTDBkQ1doRlpDaXhHLXNmSDV6czJqYmpDajNyal9KOWYwUzBZMHpKLTZqR2pJMng4YTQ4Z0ZKU3JfOA?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5PdXo1UUY0UGgtN2Y5anktRndDV3otYzlEVV9FRTROc05IdEp2RDJfVDN5anBqUThWMWhhbWRHNTBuelNUQmtHams3RDZTTnNfMzQ2Q2ltY2hRZ1p1OVNBS29JRnZsOVZCTVHSAW9BVV95cUxQWHFmWFJKY3JKaWhub2VMbVlmX0d0V1hzek9zT3NYdHRDYnFtV3VZSGRDd0VtTUwwZENXaEZaQ2l4Ry1zZkg1enMyamJqQ2ozcmpfSjlmMFMwWTB6Si02akdqSTJ4OGE0OGdGSlNyXzg?oc=5"
     },
     {
       "player": "김호령",
