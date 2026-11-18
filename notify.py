@@ -39,10 +39,6 @@ def main():
         key='signed:'+c['name']+':'+c['to']+':'+str(c['total'])
         line=f"✅ 새 FA 계약 자동 분류: {c['name']}\n{c['from']} → {c['to']} / {c['years']}년 / {c['total']}억 원\n{(c.get('sources') or [''])[0]}\n※ 공식 확정이 아닌 언론 제목 교차검증"
         events.append((key,line))
-    for c in review.get('candidates',[]):
-        key='review:'+hashlib.sha256((c['player']+'|'+c.get('url','')).encode()).hexdigest()[:20]
-        line=f"🔎 FA 계약 검토 필요: {c['player']}\n{c['headline'][:170]}\n{c.get('url','')}"
-        events.append((key,line))
     if review.get('errors'):
         failed=', '.join(e['player'] for e in review['errors'])
         # Send once per set of affected players; won't spam every half-hour.
