@@ -1,4 +1,7 @@
 {
   "checked_at": null,
-  "posts": []
+  "posts": [],
+  "last_attempt_at": "2026-11-18T22:35:18+09:00",
+  "status": "blocked",
+  "message": "robots 정책 미확인/접근 불허: https://mlbpark.donga.com/mp/best.php?b=kbotown&m=like"
 }
