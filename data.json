@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-18T20:45:00+09:00",
-  "checked_at": "2026-11-22T11:07:24+09:00",
+  "updated_at": "2026-11-22T11:29:02+09:00",
+  "checked_at": "2026-11-22T11:29:02+09:00",
   "players": [
     {
       "name": "원태인",
@@ -100,7 +100,21 @@
     {
       "name": "문승원",
       "team": "SSG",
-      "grade": "C"
+      "grade": "C",
+      "contract": {
+        "team": "SSG",
+        "years": "2+1",
+        "total": 15,
+        "bonus": 5,
+        "salary": 7.5,
+        "options": 2.5,
+        "date": "2026-11-22",
+        "sources": [
+          "https://www.spotvnews.co.kr/news/articleView.html?idxno=1021182",
+          "https://www.newspim.com/news/view/20261122000038"
+        ],
+        "verification": "SSG 구단 공식 발표 확인 (언론 보도 인용)"
+      }
     },
     {
       "name": "오태곤",
