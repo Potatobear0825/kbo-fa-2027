@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-22T11:29:02+09:00",
-  "checked_at": "2026-11-27T05:34:01+09:00",
+  "updated_at": "2026-11-27T06:34:49+09:00",
+  "checked_at": "2026-11-27T06:34:49+09:00",
   "players": [
     {
       "name": "원태인",
@@ -15,7 +15,18 @@
     {
       "name": "구자욱",
       "team": "삼성",
-      "grade": "A"
+      "grade": "A",
+      "contract": {
+        "team": "삼성",
+        "years": "10",
+        "total": 220.0,
+        "date": "2026-11-27",
+        "sources": [
+          "https://news.google.com/rss/articles/CBMiakFVX3lxTE5MRFNPZnNGMGpXb2RneklpemNOdVFndDR0Unc2UFk2RHVhRmVjWDBxYVQ1cU1icVo1cWFIT1NHQ1VaOEw2WjBoUzJMTXpzMHRWdzI1ZFNwU1FZWFhtenowc3hxUVBEVjFRTnfSAW9BVV95cUxQQ3I4OGZ1THFTWGNNc3FFc3ZaOGQxS2FMd3BNTlhEWHJwdU5ibGU2SEloT1pkNGtocXRzeWc2TzhNeVl6d3JuYmpXdFEzVUQ5YUNYb0lRM3RhU2Z1Rk94WWd0aUJ6TEoyYi1OcGo5ZjQ?oc=5",
+          "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5VaEo2Y2hDeEVBSUFaSXJudWkwLTl1ZlVZTk4tWDBCUjNOZC1vb05hUjhWSjVqenpmN1hSeDdxcmY1LWJZYW9vV3A3VVVqeEU1cnFkQW5FSWhPeER0?oc=5"
+        ],
+        "verification": "언론사 2곳 제목 일치 · 자동 분류 (발표일 아님)"
+      }
     },
     {
       "name": "김민수",
