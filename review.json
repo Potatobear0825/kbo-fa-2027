@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-26T11:41:35+09:00",
+  "checked_at": "2026-11-26T12:42:42+09:00",
   "new_contracts": [],
   "candidates": [
     {
@@ -13,12 +13,6 @@
       "headline": "KBO, 원태인 등 FA 22명 공시...17일부터 계약 가능 - 티제이비",
       "publisher": "티제이비",
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB3VDFvb29yLXY3bE5FUHd0eEFPamFydVR4R3NsUE0tLUxvYmI3OVJRQ3BORGVXM251bmdwdUp0Sk54R2Fqd2ZtQk4yaEQtZGJ0RUhBZHhDdVBtbDVibUhZREZYZnlXQk8tWi1zTnVOMA?oc=5"
-    },
-    {
-      "player": "원태인",
-      "headline": "삼성, 이제는 내부 ‘머니 게임’…구자욱·원태인 FA 계약 주목 - 경향신문",
-      "publisher": "경향신문",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBsdFVzRnNTcWtSQm9CWnFEcFFzWGlrM2h1UGliNkVlVWJRek4yaE5NNEUwUVZ4WnNFSmhoMG92Tkk5eGxCem9seWhETWdhNnVSNGZCeGhydndCZ9IBX0FVX3lxTFBRbWxCS00wdnRweEZnN2pER2VrMFB0cWgyT2o3VGI3Tlo1Z21sQTFpa1FEYlBSUVdBTTd1TGpaaHpxRk4tbGJZM2RzdjR5YjRFbVFzMkx0TEREMktOelNJ?oc=5"
     },
     {
       "player": "원태인",
@@ -37,6 +31,12 @@
       "headline": "“이적시 비밀 사진 공개하겠다”…‘FA’ 구자욱·원태인에게 경고 날린 강민호 - 한국아이닷컴",
       "publisher": "한국아이닷컴",
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1RZ0VscmhUanAzSk9GMkQ1b1VZdDlVQWd2OHpOeEhKU1N3Z3N1OHJmZjRFMWJxUEdIb0FZY0lXWlUyWXdPOFpQNVBVeUg1eGRSd0FySFVFZEFfN3o5Z2Ryb2JTMGJfbmhZNWFr0gFvQVVfeXFMT3pxMVh6TG0ybWhfaC0ya3NDalpDMWxRNWxIbk1ReWVaeHhyZFFHaWFpVms0eHkyN2F2a0NaWFRDODJrR1RvRjRydXlWcDJwSk9jaVVBUC1oUGV4MlBnbDBpdXBZSHA0WG1DYnllZnlz?oc=5"
+    },
+    {
+      "player": "원태인",
+      "headline": "\"돈으로 밀리지 않는다\"는 삼성, 구자욱·원태인 계약에 구단·그룹 자존심 걸렸다 [IS 포커스] - 네이트",
+      "publisher": "네이트",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1LR0g3cjNQYVlYUV9FQVNPWVZYdlNYSTBpMHBENy1WbzNJekJ5bnNHMFBrOUF3Z2ZLRmduQ2xpcV8yZHFXRXI1b21ydGVBelZSRkNjYVZ3anhqZnI4?oc=5"
     },
     {
       "player": "원태인",
@@ -135,12 +135,6 @@
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB3clZnV0N1U01ZRmhsQTExYjRaM0lNbnZYc0JZWUdsaGdYclo2XzV3V0dxZmpTdmwwcDY5ZzZ6cHFQcDd6dWNyRHJ3cXdfeWJ1YXNvblBTTWNrUnc?oc=5"
     },
     {
-      "player": "김상수",
-      "headline": "“구자욱·원태인이 먼저잖아” KT 김상수, 삼성 복귀 이야기보다 앞에 놓인 내부 FA 잔류 - Daum",
-      "publisher": "Daum",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5faUdaZjRLWEJJWHBjazA2cy13MmdSYUw0RHF4ZmRjYXR5a3Q4MGo0M1B1b1BsaFpmdURoRk5HbUZpR3F4bF9naU8wYTNDcEdQWVBSRHZpMkN4SzgteWw4cFlhWEpLWmJsS2c?oc=5"
-    },
-    {
       "player": "배정대",
       "headline": "원 소속팀 잔류한 최지훈…FA 시장 남은 김호령-배정대 등 외야 보강 카드에 이목 - 스포츠동아",
       "publisher": "스포츠동아",
@@ -232,15 +226,21 @@
     },
     {
       "player": "박동원",
-      "headline": "'LG, 더이상의 뺄셈 야구 끝내야 한다!' 박동원·홍창기 잔류 불투명…외부 FA 영입으로 취약 포지션 보강해야 - 마니아타임즈",
-      "publisher": "마니아타임즈",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9PbkFsX25HM1BISG9TOTVack8yeEZGNmpOSk1lX2d6N3dZRDlzU18xaWFWbVdQcFlEdUFLdGFaNGdycXJ2YnhFTXpRMG5aYm1jMWVUS0pJU3F2NDIxMjdsLTNGQjFZZlptREhqbzg3SmgyeFVQQ0FGdTZOdw?oc=5"
+      "headline": "FA 박동원 놓칠 경우 대비일까...SSG 방출 김민식, LG 전격 계약 \"풍부한 경험으로 포수 뎁스 강화\" - OSEN",
+      "publisher": "OSEN",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE54c2Y1VENnRVF4MzMwdXk5U0g2LXhucnpjTGctTmR1bXRzcFl0OUNYUjhpSHdTRlRnTzU2MHh5dFhia3F6allKS3J4ZkVrQnZzM1d6bQ?oc=5"
     },
     {
       "player": "박동원",
       "headline": "양의지 2년 55억 두산 잔류… FA로 290억 ‘야구 부자’…박동원은 어디로… : 스포츠 - 재경일보",
       "publisher": "재경일보",
       "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9vLU1ZSzVpS05BWEFXQ1diWVF5dGtrS0R5UjFZWENzMkM2YU1EcFpzckJSOFNBYURRXzRiU0N5Qi1BY0VvZ3FfREh3RQ?oc=5"
+    },
+    {
+      "player": "박동원",
+      "headline": "[오피셜] LG, '65억 계약 끝' 내부 FA 박동원 이별 대비하나…'KIA→SSG' 우승 포수 영입 \"검증된 베테랑 뎁스 강화\" - www.xportsnews.com",
+      "publisher": "www.xportsnews.com",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBnU0lWRWRlTHJLa2tmV2cwdm4wWjFPRWxEWjVOek5PQW1mZ0tBN1Q2a1ROYWRHRXFiTndWcF9SNHdBZElPOTBaLUpzRjRqelJPUnJOcg?oc=5"
     },
     {
       "player": "홍창기",
@@ -267,10 +267,22 @@
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNTW8tQ0xwWGxXWFVpbXF3ZVg0MFBMenVUbkpPVU8telVYaHNZcWVSX3dwSUZlUUhtc1EwRWNqQS1GdWlxMTZCSlVhNWpxS0sza3paaHpPamFCYXZvMUkyWGFvSXpZMWNJR3hadlozNmI3bHpLOUdRVFNKTUFtN2NGLU1vMNIBlwFBVV95cUxPNWs2YkJmS1FsYU5maVhJZGpMQUU1ZDlJRXRwUnhiQndteVpqSHhSdkllRVdYVjFFOFU5NDkxdTlpbEJkUzBxUTlZQU1OSnhlUWQwQU1xMHB0NUw5Ymk1N2VUUUFoY3ZuWm44R1FwYWZPbzRBVkdhQnVOMmN1SUZhRVBPTGZNdlkxd0c5RGJ0Ym9hSDNtOThz?oc=5"
     },
     {
+      "player": "박치국",
+      "headline": "'초대박' 52억에 두산 잔류 확정→FA 선배들 향해 외쳤다 “양의지-정수빈 형 없으면 우승 힘들어, 박치국은…” [오!쎈 미야자키] - 머니투데이 - 머니투데이",
+      "publisher": "머니투데이",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9lejJ5dnJ5OS1SN3lpYUhCXzhjdHByWi04TjYyTjNjMU9sbnJsSDh1eDk3Zl9vUGYxckViay1JMGdmY011N1JCeUF4NWNlUjZhVnBsQnpoTDRUNzEyS3lUVFBaaXJCRm5nd1HSAW9BVV95cUxNRlhTOHBZOFpYaklOa0xrb0l1R004S21OclBHc2gtdHNTLXZYcmhQV2VIV2ZUQmFkMzYzOE9DdElqTV9RdDR2djBNTjZYUFJ1RTA4M1NaOXQ4MTlYVjNHcjJXMzFnazBxX2VoNVZlcTg?oc=5"
+    },
+    {
       "player": "정수빈",
       "headline": "'초대박' 52억에 두산 잔류 확정→FA 선배들 향해 외쳤다 “양의지-정수빈 형 없으면 우승 힘들어, 박치국은…” [오!쎈 미야자키] - Chosunbiz",
       "publisher": "Chosunbiz",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNTW8tQ0xwWGxXWFVpbXF3ZVg0MFBMenVUbkpPVU8telVYaHNZcWVSX3dwSUZlUUhtc1EwRWNqQS1GdWlxMTZCSlVhNWpxS0sza3paaHpPamFCYXZvMUkyWGFvSXpZMWNJR3hadlozNmI3bHpLOUdRVFNKTUFtN2NGLU1vMNIBlwFBVV95cUxPNWs2YkJmS1FsYU5maVhJZGpMQUU1ZDlJRXRwUnhiQndteVpqSHhSdkllRVdYVjFFOFU5NDkxdTlpbEJkUzBxUTlZQU1OSnhlUWQwQU1xMHB0NUw5Ymk1N2VUUUFoY3ZuWm44R1FwYWZPbzRBVkdhQnVOMmN1SUZhRVBPTGZNdlkxd0c5RGJ0Ym9hSDNtOThz?oc=5"
+    },
+    {
+      "player": "정수빈",
+      "headline": "'초대박' 52억에 두산 잔류 확정→FA 선배들 향해 외쳤다 “양의지-정수빈 형 없으면 우승 힘들어, 박치국은…” [오!쎈 미야자키] - 머니투데이 - 머니투데이",
+      "publisher": "머니투데이",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9lejJ5dnJ5OS1SN3lpYUhCXzhjdHByWi04TjYyTjNjMU9sbnJsSDh1eDk3Zl9vUGYxckViay1JMGdmY011N1JCeUF4NWNlUjZhVnBsQnpoTDRUNzEyS3lUVFBaaXJCRm5nd1HSAW9BVV95cUxNRlhTOHBZOFpYaklOa0xrb0l1R004S21OclBHc2gtdHNTLXZYcmhQV2VIV2ZUQmFkMzYzOE9DdElqTV9RdDR2djBNTjZYUFJ1RTA4M1NaOXQ4MTlYVjNHcjJXMzFnazBxX2VoNVZlcTg?oc=5"
     },
     {
       "player": "박상원",
